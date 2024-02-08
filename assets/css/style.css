@@ -43,6 +43,9 @@ header{
     }
 }
 
+.about{
+    background-color: var(--ms-jumbo-);
+}
 
 /* ### DEBUG SECTION ### */
 
@@ -57,4 +60,10 @@ header{
 }
 .debug [class*="col-lg"]{
     height: 360px
+}
+.debug .about{
+    height: 700px;
+}
+.debug .contact-me{
+    height: 600px;
 }
