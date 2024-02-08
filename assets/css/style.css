@@ -47,11 +47,23 @@ header{
     background-color: var(--ms-jumbo-);
 }
 
+footer{
+
+    >:first-child{
+        background-color: var(--ms-footer-dark-);
+    }
+
+    >:nth-child(2){
+        background-color: var(--ms-footer-darker-);
+    }
+}
+
 /* ### DEBUG SECTION ### */
 
-.debug *{
+/* .debug *{
     border: 1px dashed grey;
-}
+} */
+
 .debug header{
     height: 90px;
 }
