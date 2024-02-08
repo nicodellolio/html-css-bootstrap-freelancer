@@ -25,27 +25,27 @@ header {
 
 .portfolio {
 
-    .c-1 {
+    & .c-1 {
         background-color: var(--ms-pf-1);
     }
 
-    .c-2 {
+    & .c-2 {
         background-color: var(--ms-pf-2);
     }
 
-    .c-3 {
+    & .c-3 {
         background-color: var(--ms-pf-3);
     }
 
-    .c-4 {
+    & .c-4 {
         background-color: var(--ms-pf-4);
     }
 
-    .c-5 {
+    & .c-5 {
         background-color: var(--ms-pf-5);
     }
 
-    .c-6 {
+    & .c-6 {
         background-color: var(--ms-pf-6);
     }
 }
@@ -78,6 +78,10 @@ footer {
 
 .debug [class*="col-lg"] {
     height: 360px
+}
+
+.card{
+    height: 100%;
 }
 
 .debug .about {
