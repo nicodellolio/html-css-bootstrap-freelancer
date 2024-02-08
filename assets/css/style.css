@@ -1,0 +1,41 @@
+/* ### UTILITIES ### */
+
+:root{
+    --ms-header-: #2C3E50;
+    --ms-jumbo-: #1ABC9C;
+    --ms-pf-1: #BA4B63;
+    --ms-pf-2: #1EA4B6;
+    --ms-pf-3: #140F0F;
+    --ms-pf-4: #1C83C1;
+    --ms-pf-5: #0E38B5;
+    --ms-pf-6: #CCB2A3;
+    --ms-footer-dark-: #3A546D;
+    --ms-footer-darker-: #2C3E50;
+}
+
+/* ### MAIN STYLE SHEET ### */
+
+header{
+    background-color: var(--ms-header-);
+}
+.jumbotron{
+    background-color: var(--ms-jumbo-);
+}
+
+
+/* ### DEBUG SECTION ### */
+
+.debug *{
+    border: 1px dashed grey;
+}
+
+.debug header{
+    height: 90px;
+}
+.debug .jumbotron{
+    height: 490px;
+}
+.debug .portfolio{
+    background-color: indigo;
+
+}
