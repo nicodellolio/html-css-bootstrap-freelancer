@@ -1,6 +1,6 @@
 /* ### UTILITIES ### */
 
-:root{
+:root {
     --ms-header-: #2C3E50;
     --ms-jumbo-: #1ABC9C;
     --ms-pf-1: #BA4B63;
@@ -15,45 +15,49 @@
 
 /* ### MAIN STYLE SHEET ### */
 
-header{
+header {
     background-color: var(--ms-header-);
 }
-.jumbotron{
+
+.jumbotron {
     background-color: var(--ms-jumbo-);
 }
-.portfolio{
 
-    .c-1{
+.portfolio {
+
+    .c-1 {
         background-color: var(--ms-pf-1);
     }
-    .c-2{
+
+    .c-2 {
         background-color: var(--ms-pf-2);
     }
-    .c-3{
+
+    .c-3 {
         background-color: var(--ms-pf-3);
     }
-    .c-4{
+
+    .c-4 {
         background-color: var(--ms-pf-4);
     }
-    .c-5{
+
+    .c-5 {
         background-color: var(--ms-pf-5);
     }
-    .c-6{
+
+    .c-6 {
         background-color: var(--ms-pf-6);
     }
 }
 
-.about{
+.about {
     background-color: var(--ms-jumbo-);
 }
 
-footer{
+footer {
+    background-color: var(--ms-footer-dark-);
 
-    >:first-child{
-        background-color: var(--ms-footer-dark-);
-    }
-
-    >:nth-child(2){
+    >:nth-child(2) {
         background-color: var(--ms-footer-darker-);
     }
 }
@@ -64,18 +68,22 @@ footer{
     border: 1px dashed grey;
 } */
 
-.debug header{
+.debug header {
     height: 90px;
 }
-.debug .jumbotron{
+
+.debug .jumbotron {
     height: 490px;
 }
-.debug [class*="col-lg"]{
+
+.debug [class*="col-lg"] {
     height: 360px
 }
-.debug .about{
+
+.debug .about {
     height: 700px;
 }
-.debug .contact-me{
+
+.debug .contact-me {
     height: 600px;
 }
