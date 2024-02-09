@@ -123,6 +123,13 @@ footer {
             }
         }
     }
+
+    .about{
+        padding: 5% 10%;
+        h1{
+            font-size: 450%;
+        }
+    }
 }
 
 @media screen and (min-width: 1200px){
