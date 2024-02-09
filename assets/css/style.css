@@ -3,6 +3,7 @@
 :root {
     --ms-header-: #2C3E50;
     --ms-jumbo-: #1ABC9C;
+    --text-darkest-: #333333;
     --ms-pf-1: #BA4B63;
     --ms-pf-2: #1EA4B6;
     --ms-pf-3: #140F0F;
@@ -13,14 +14,18 @@
     --ms-footer-darker-: #2C3E50;
 }
 
-*{
-    font-family: 'Lato', sans-serif;
-}
-
 .star_divider{
     vertical-align: super;
     font-weight: 800;
 }
+
+.font-space-1{
+    letter-spacing: 1px;
+}
+.font-space-2{
+    letter-spacing: 2px;
+}
+
 /* ### MAIN STYLE SHEET ### */
 
 header {
@@ -30,10 +35,19 @@ header {
 
 .jumbotron {
     background-color: var(--ms-jumbo-);
+    padding: 4% 0 5%;
+    img{
+
+        width: 250px;
+    }
+}
+
+.portfolio-head{
+    padding: 4% 0;
 }
 
 .portfolio {
-
+    padding: 2%;
     & .c-1 {
         background-color: var(--ms-pf-1);
     }
@@ -71,27 +85,57 @@ footer {
     }
 }
 
+
+@media screen and (min-width: 768px) {
+    .jumbotron{
+        & .ms_card{
+            & .ms_card-body{
+
+                font-size: 150%;
+                >h1{
+                    font-size: 250%;
+                }
+            }
+        }
+    }
+    
+    .portfolio {
+        padding: 2%;
+        
+        .portfolio-head{
+            .ms_card{
+                h1{
+                    font-size: 300%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .portfolio {
+        padding: 2% 5%;
+    }
+
+}
+
 /* ### DEBUG SECTION ### */
 
 /* .debug *{
     border: 1px dashed grey;
 } */
 
-.debug .jumbotron {
+/* .debug .jumbotron {
     height: 490px;
-}
+} */
 
-.debug [class*="col-lg"] {
+/* .debug [class*="col-lg"] {
     height: 360px
-}
+} */
 
-.card{
-    height: 100%;
-}
-
-.debug .about {
+/* .debug .about {
     height: 700px;
-}
+} */
 
 .debug .contact-me {
     height: 600px;

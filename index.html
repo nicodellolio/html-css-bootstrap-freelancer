@@ -49,19 +49,19 @@
     </header>
 
     <main>
-        <div class="container jumbotron text-center pt-4">
-            <div class="row w-100">
+        <div class="container-fluid jumbotron text-center">
+            <div class="row w-100 mx-auto">
                 <div class="col-12 text-center">
-                    <div class="card bg-transparent border-0">
-                        <img class="w-50 mx-auto" src="./assets/img/avatar.svg" alt="">
-                        <div class="card-body text-white pt-4">
-                            <h1>START BOOSTRAP</h1>
+                    <div class="card ms_card bg-transparent border-0">
+                        <img class="mx-auto" src="./assets/img/avatar.svg" alt="">
+                        <div class="card-body ms_card-body text-white pt-4">
+                            <h1 class="font-space">START BOOSTRAP</h1>
                             <div class="star">
-                                <span class="star_divider">_____________ </span>
+                                <span class="star_divider">_________ </span>
                                 <i class="fa-solid fa-star fs-3"></i>
-                                <span class="star_divider"> _____________</span>
+                                <span class="star_divider"> _________</span>
                             </div>
-                            <nav class="card-text pt-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</nav>
+                            <nav class="card-text pt-3 font-space-1 fw-light">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</nav>
                         </div>
                       
                     </div>
@@ -69,40 +69,67 @@
             </div>
         </div>
 
-        <div class="portfolio container mb-5">
+        <div class="portfolio-head container mb-5">
             <div class="row pf-head text-center">
                 <div class="col-12">
-                    Portfolio <br>
-                    &star;
+                    <div class="card ms_card border-0">
+                        <h1>PORTFOLIO</h1>
+                        <div class="star">
+                            <span class="star_divider">_________ </span>
+                            <i class="fa-solid fa-star fs-3"></i>
+                            <span class="star_divider"> _________</span>
+                        </div>
+
+                    </div> 
                 </div>
             </div>
-            <div class="row gy-3 gx-3">
-                <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rounded">
-                    <div class="card w-100 border-0 c-1"></div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rounded">
-                    <div class="card w-100 border-0 c-2"></div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rounded ">
-                    <div class="card w-100 border-0 c-3"></div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rounded">
-                    <div class="card w-100 border-0 c-4"></div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rounded">
-                    <div class="card w-100 border-0 c-5"></div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-6 col-xl-4 rounded">
-                    <div class="card w-100 border-0 c-6"></div>
-                </div>
 
+            <div class="portfolio container">
+                <div class="row gy-4 gx-4 row-cols-1 row-cols-sm-2 row-cols-lg-2 row-cols-xl-3">
+
+                    <div class="col">
+                        <div class="card w-100 border-0 c-1">
+                            <img class="rounded-5" src="./assets/img/cabin.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 border-0 c-2">
+                            <img class="rounded-5" src="./assets/img/cake.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 border-0 c-3">
+                            <img class="rounded-5" src="./assets/img/circus.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 border-0 c-4">
+                            <img class="rounded-5" src="./assets/img/game.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 border-0 c-5">
+                            <img class="rounded-5" src="./assets/img/safe.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 border-0 c-6">
+                            <img class="rounded-5" src="./assets/img/submarine.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
 
-        <div class="containter-fluid about text-center p-3 text-white">
+        <div class="containter about text-center p-3 text-white">
             <div class="w-75 mx-auto">
-                <h1>ABOUT</h1><br>
-                &star;
+                <h1>ABOUT</h1>
+                <div class="star">
+                    <span class="star_divider">_________ </span>
+                    <i class="fa-solid fa-star fs-3"></i>
+                    <span class="star_divider"> ________</span>
+                </div>            
             </div>
             <div class="w-75 mx-auto">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum et odio ipsum non similique?
