@@ -34,7 +34,6 @@ body{
 
 header {
     background-color: var(--ms-header-);
-    height: 90px;
 }
 
 .jumbotron {
@@ -47,7 +46,7 @@ header {
 }
 
 .portfolio-head{
-    padding: 4% 0;
+    padding: 10% 0;
 }
 
 .portfolio {
@@ -79,6 +78,20 @@ header {
 
 .about {
     background-color: var(--ms-jumbo-);
+}
+
+.contact-me{
+    margin-bottom: 5%;
+
+    & text-area{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .btn{
+        background-color: var(--ms-jumbo-);
+        color: #fff;
+    }
 }
 
 footer {
