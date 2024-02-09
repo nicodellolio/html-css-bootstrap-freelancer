@@ -25,23 +25,29 @@
 .font-space-2{
     letter-spacing: 2px;
 }
+.fa-star{
+    font-size: rem;
+}
 
 /* ### MAIN STYLE SHEET ### */
 
-body{
+*{
     overflow-x: hidden;
 }
 
-header {
+header{
     background-color: var(--ms-header-);
 }
 
-.jumbotron {
+section.jumbotron{
     background-color: var(--ms-jumbo-);
-    padding: 4% 0 5%;
-    img{
 
-        width: 250px;
+    & div.jumbotron {
+        padding: 4% 0 5%;
+        img{
+            
+            width: 250px;
+        }
     }
 }
 
@@ -49,38 +55,15 @@ header {
     padding: 10% 0;
 }
 
-.portfolio {
+div.portfolio {
     padding: 2%;
-    & .c-1 {
-        background-color: var(--ms-pf-1);
-    }
-
-    & .c-2 {
-        background-color: var(--ms-pf-2);
-    }
-
-    & .c-3 {
-        background-color: var(--ms-pf-3);
-    }
-
-    & .c-4 {
-        background-color: var(--ms-pf-4);
-    }
-
-    & .c-5 {
-        background-color: var(--ms-pf-5);
-    }
-
-    & .c-6 {
-        background-color: var(--ms-pf-6);
-    }
 }
 
-.about {
+section.about {
     background-color: var(--ms-jumbo-);
 }
 
-.contact-me{
+div.contact-me{
     margin-bottom: 5%;
 
     & text-area{
@@ -99,6 +82,17 @@ footer {
 
     >:nth-child(2) {
         background-color: var(--ms-footer-darker-);
+    }
+
+    .social{
+        i{
+            width: 60px;
+        }
+    }
+
+    a.green{
+        color: var(--ms-jumbo-);
+        text-decoration: none;
     }
 }
 
@@ -120,6 +114,7 @@ footer {
         padding: 2%;
         
         .portfolio-head{
+            padding: 5% 0;
             .ms_card{
 
                 h1{
@@ -139,21 +134,21 @@ footer {
 
 /* ### DEBUG SECTION ### */
 
-/* .debug *{
+.debug *{
     border: 1px dashed grey;
-} */
+}
 
-/* .debug .jumbotron {
+.debug .jumbotron {
     height: 490px;
-} */
+}
 
-/* .debug [class*="col-lg"] {
+.debug [class*="col-lg"] {
     height: 360px
-} */
+}
 
-/* .debug .about {
+.debug .about {
     height: 700px;
-} */
+}
 
 .debug .contact-me {
     height: 600px;
