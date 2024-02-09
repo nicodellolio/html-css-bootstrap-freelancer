@@ -28,6 +28,10 @@
 
 /* ### MAIN STYLE SHEET ### */
 
+body{
+    overflow-x: hidden;
+}
+
 header {
     background-color: var(--ms-header-);
     height: 90px;
@@ -90,8 +94,8 @@ footer {
     .jumbotron{
         & .ms_card{
             & .ms_card-body{
-
                 font-size: 150%;
+
                 >h1{
                     font-size: 250%;
                 }
@@ -104,6 +108,7 @@ footer {
         
         .portfolio-head{
             .ms_card{
+
                 h1{
                     font-size: 300%;
                 }
