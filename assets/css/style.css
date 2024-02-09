@@ -13,10 +13,19 @@
     --ms-footer-darker-: #2C3E50;
 }
 
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.star_divider{
+    vertical-align: super;
+    font-weight: 800;
+}
 /* ### MAIN STYLE SHEET ### */
 
 header {
     background-color: var(--ms-header-);
+    height: 90px;
 }
 
 .jumbotron {
@@ -67,10 +76,6 @@ footer {
 /* .debug *{
     border: 1px dashed grey;
 } */
-
-.debug header {
-    height: 90px;
-}
 
 .debug .jumbotron {
     height: 490px;
